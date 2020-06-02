@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bài 1</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<!-- tích hợp boostrap -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+	<!-- đúng chuẩn boostrap -->
+	<div class="container">
+		<h1>Job Application</h1>
+		<h2>Contact Information</h2>
+		<form action="" method="post">
+			<div class="form-group">
+				<div class="row">
+					<div class="col-md-6 col-sm-12 col-12">
+						<!-- với các input form thường sẽ dùng thẻ label và khai báo thuộc tính for cho thẻ này -->
+						<label for="first-name">
+							First name <span class="red">*</span>
+						</label>
+						<input type="text" id="first-name" class="form-control">
+					</div>
+					<div class="col-md-6 col-sm-12 col-12">
+						<label for="last-name">
+							Last name <span class="red">*</span>
+						</label>
+						<input type="text" id="last-name" class="form-control">
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="email">
+					Email <span class="red">*</span>
+				</label>
+				<input type="email" id="email" class="form-control">
+			</div>
+			<div class="form-group">
+				<h2>Position</h2>
+				<label for="position">
+					Position you are applying for 
+					<span class="red">*</span>
+				</label>
+				<input type="text" id="position" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="resume">
+					Resumme upload
+				</label>
+				<input type="file" id="resume" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="potolo">
+					Portolo work
+				</label>
+				<input type="text" id="potolo" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="safary">
+					Safary equiments
+				</label>
+				<input type="text" id="safary" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="start">
+					When can you start?
+				</label>
+				<input type="text" id="start" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="chon">
+					Are you willing to relocade?
+				</label>
+				<div>
+				<input type="radio" id="chon" name="gender">
+				Yes
+				<br>
+				<input type="radio" id="chon" name="gender">
+				No
+				<br>
+				<input type="radio" id="chon" name="gender">
+				Not sure
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="you">
+					Last company you worked for
+				</label>
+				<input type="text" id="you" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="comment">
+					Comments
+				</label>
+				<textarea rows="10" cols="5" id="comment" class="form-control"></textarea>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="submit">
+			</div>
+		</form>
+	</div>
+</body>
+</html>

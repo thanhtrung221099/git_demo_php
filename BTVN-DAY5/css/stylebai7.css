@@ -1,0 +1,34 @@
+.header {
+    background: #009688;
+    color: #fff;
+}
+.head {
+    background: #009688;
+    margin-top: 10px;
+}
+.heading {
+    margin: auto;
+}
+.i {
+    font-size: 30px;
+    padding: 10px 0;
+    color: #fff;
+}
+.col1 {
+    background: #009688;
+    text-align: center;
+    color: #fff;
+    padding: 5px 0;
+}
+.col2 {
+    background: #eeeeee;
+}
+.col3 {
+    background: #000;
+    color: #fff;
+    height: 70px;
+    padding: 20px;
+}
+.bor {
+    margin-left: 300px;
+}

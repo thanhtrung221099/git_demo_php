@@ -1,0 +1,91 @@
+.mot {
+    background: #87509c;
+    padding: 30px 50px;
+    color: #fff;
+}
+h3 {
+    text-align: center;
+}
+.Work {
+    text-align: center;
+}
+.hai {
+    background: #17c2a4;
+    padding: 30px 50px;
+    color: #fff;
+}
+h2:after {
+	content: '';
+    width: 50px;
+    border-top: 3px solid;
+    display: block;
+    margin: 10px auto;
+}
+h2 {
+	text-align: center;
+}
+p.p {
+    text-align: center;
+}
+.ba {
+    background: #e7f1f8;
+    padding: 30px 50px;
+}
+.a {
+    color: #30bae7;
+    text-align: center;
+}
+h5 {
+    text-align: center;
+}
+.p1 {
+	text-align: center;
+}
+.icon {
+	text-align: center;
+}
+.bon {
+    background: #ffffff;
+    padding: 30px 50px;
+}
+.nam {
+    background: #ffdd99;
+    padding: 30px 50px;
+}
+.all {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.center {
+	text-align: center;
+}
+.sau {
+    background: #d74680;
+    padding: 30px 50px;
+    color: #fff;
+}
+.a1 {
+    color: #ffdd99;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.bay {
+    background: #3c5499;
+    padding: 30px 50px;
+    color: #fff;
+}
+.seen {
+    text-align: center;
+}
+.footer {
+    background: #344b8e;
+    padding: 10px 50px;
+}
+a{
+	color: #fff;
+}
+a:hover {
+	color: blue;
+}
